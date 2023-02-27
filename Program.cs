@@ -14,4 +14,20 @@ void LengArr(string[] Array)
     }
     Console.WriteLine(count);
 }
+
+void NewArray(string[] SortArray)
+{
+    for (int i = 0; i < Array.GetLength(0); i++)
+    {
+        int j = 0;
+        if (Array[i].Length <= 3)
+        {
+            SortArray[j] = Array[i];
+            Console.Write($"{SortArray[j]} ");
+            j++;
+        }
+    }
+}
 LengArr(Array);
+string[] SortArray = new string[count];
+NewArray(SortArray);
