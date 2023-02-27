@@ -12,7 +12,7 @@ void LengArr(string[] Array)
             count++;
         }
     }
-    Console.WriteLine(count);
+    Console.Write("   -->   ");
 }
 
 void NewArray(string[] SortArray)
